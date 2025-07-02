@@ -78,7 +78,7 @@ const BatchAnalysis: React.FC = () => {
     try {
       const data = JSON.parse(jsonInput);
       
-      const response = await fetch('http://192.168.0.198:8000/predict/batch', {
+      const response = await fetch('https://nids-server.onrender.com/predict/batch', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

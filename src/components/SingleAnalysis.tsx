@@ -20,7 +20,7 @@ const handleAnalysis = async (data: any) => {
   setResult(null);
 
   try {
-    const response = await axios.post('http://192.168.0.198:8000/predict', data, {
+    const response = await axios.post('https://nids-server.onrender.com/predict', data, {
       headers: {
         'Content-Type': 'application/json',
       },
