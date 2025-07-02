@@ -75,9 +75,9 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Database className="h-4 w-4 text-slate-400" />
-              <span className="text-sm text-slate-400">API: 192.168.0.198:8000</span>
+              <span className="text-sm text-slate-400">API: https://nids-server.onrender.com</span>
             </div>
-            <p className="text-sm text-slate-500">© 2024 NIDS - Bütün hüquqlar qorunur</p>
+            <p className="text-sm text-slate-500">© 2025 NIDS - Bütün hüquqlar qorunur</p>
           </div>
         </div>
       </footer>
